@@ -30,7 +30,18 @@ docs/            Deposit/reproduction documentation and checksums
 
 ## Model weights
 
-The large `.pth` files were not available to ChatGPT during package assembly. Before the Zenodo release, add `models/model_best_ap50.pth` and, if desired, `models/model_final.pth`. The best checkpoint is the important one for reproducing the reported evaluation.
+The trained model checkpoints are distributed with the corresponding Zenodo
+release because of their large file sizes and are not stored in the standard
+GitHub repository history.
+
+The archived checkpoints are:
+
+- `model_best_ap50.pth` — best checkpoint selected using segmentation AP50 and
+  used for the reported evaluation.
+- `model_final.pth` — final training checkpoint.
+
+For reproducing the reported evaluation results, `model_best_ap50.pth` is the
+recommended checkpoint.
 
 ## Running the work
 
@@ -38,7 +49,9 @@ See `REPRODUCIBILITY.md`. The original notebook retains its historical Google Dr
 
 ## Persistent archive
 
-**Zenodo DOI:** `[INSERT DOI AFTER PUBLICATION]`  
-**GitHub:** `[INSERT GITHUB REPOSITORY URL]`
+GitHub repository: https://github.com/Isaac-design-stack/gamma-prime-segmentation
 
-After the first public Zenodo release, replace these placeholders and the corresponding placeholders in `CITATION.cff`, `.zenodo.json`, and `DATA_AVAILABILITY.md`.
+Zenodo DOI: [TO BE ADDED AFTER ZENODO PUBLICATION]
+
+The Zenodo record provides the persistent archived release, including the
+large trained-model checkpoints required for reproducibility.
