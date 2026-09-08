@@ -1,0 +1,9 @@
+{
+  "BEST_SCORE_THRESH": 0.4,
+  "best_row": {
+    "score_thresh": 0.4,
+    "mean_dice": 0.901965889870469,
+    "std_dice": 0.03334914680706987,
+    "mean_pred_inst": 296.3636363636364
+  }
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite the archived release and associated paper."
+title: "Gamma-prime instance segmentation in Ni-based superalloy microstructures: supporting data and code"
+type: software
+authors:
+  - family-names: "Iwediba"
+    given-names: "Isaac Ifeanyi"
+version: "1.0.0"
+date-released: "2026-09-07"
+repository-code: "GITHUB_URL_TO_BE_INSERTED"
+doi: "ZENODO_DOI_TO_BE_INSERTED"
+keywords:
+  - gamma prime
+  - nickel-based superalloy
+  - microstructure
+  - instance segmentation
+  - Mask R-CNN
+  - Detectron2

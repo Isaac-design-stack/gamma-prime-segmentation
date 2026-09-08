@@ -1,0 +1,10 @@
+{
+  "images": 110,
+  "coco_images": 110,
+  "coco_annotations": 30305,
+  "train_images": 88,
+  "val_images": 22,
+  "missing_coco_images": 0,
+  "best_model_file_expected": "models/model_best_ap50.pth",
+  "model_weights_included": false
+}

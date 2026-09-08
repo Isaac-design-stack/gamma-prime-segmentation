@@ -1,0 +1,7 @@
+{
+  "final_weights_used": "/content/drive/MyDrive/PHD/Isaac_new/new_file2/seg_paper1_outputs_sigma_push_with_coco_new_and_new2/detectron2_output/model_best_ap50.pth",
+  "best_metric": "segm/AP50",
+  "segm_AP": 22.200781347090132,
+  "segm_AP50": 30.680827365411016,
+  "segm_AP75": 29.450185733948654
+}

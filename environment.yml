@@ -1,0 +1,20 @@
+name: gamma-prime-segmentation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - scikit-image
+  - scikit-learn
+  - tqdm
+  - pip:
+      - opencv-python-headless
+      - pycocotools
+      - gradio
+      - torch
+      - torchvision
+      - git+https://github.com/facebookresearch/detectron2.git

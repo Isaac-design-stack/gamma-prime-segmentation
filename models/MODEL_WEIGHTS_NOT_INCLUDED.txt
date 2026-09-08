@@ -1,0 +1,12 @@
+The trained PyTorch checkpoints are intentionally not bundled in this ChatGPT-generated ZIP because
+`model_best_ap50.pth` and `model_final.pth` were too large to upload in the conversation.
+
+Before publishing the Zenodo record, place the real files here:
+  models/model_best_ap50.pth
+  models/model_final.pth            (recommended, if retained)
+
+The archived `evaluation_summary.json` identifies `model_best_ap50.pth` as the checkpoint used for
+the reported evaluation, selected using the `segm/AP50` validation metric.
+
+For GitHub, it is reasonable to omit these large binary weights and link to the Zenodo DOI. For
+Zenodo, include at least `model_best_ap50.pth` so the reported inference/evaluation can be reproduced.
