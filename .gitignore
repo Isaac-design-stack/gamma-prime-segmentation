@@ -1,8 +1,43 @@
+# Python cache / compiled files
 __pycache__/
 *.py[cod]
+*.pyo
+
+# Jupyter
 .ipynb_checkpoints/
-.env
+
+# Virtual environments
 .venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
 *.log
-# model weights should normally live in Zenodo rather than normal Git history
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# IDE-specific local settings
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Local/private data that must not be published
+data/private/
+data/raw_restricted/
+
+# Large model checkpoints
+# Archive publication checkpoints separately in Zenodo when appropriate.
 models/*.pth
+models/*.pt
+models/*.ckpt
