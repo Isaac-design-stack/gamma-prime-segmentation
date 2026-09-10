@@ -1,20 +1,27 @@
 {
-  "title": "Gamma-prime instance segmentation in Ni-based superalloy microstructures: supporting data and code",
+  "title": "Automated γ′ Phase Segmentation in Nickel-based Superalloys Using Detectron2 for Materials Informatics: Supporting Data and Code",
   "upload_type": "dataset",
-  "description": "Supporting micrographs, COCO annotations, fixed train/validation splits, evaluation results, figures and executable code for a one-class gamma-prime instance-segmentation workflow using Detectron2 Mask R-CNN.",
+  "description": "Supporting data and code for the manuscript \"Automated γ′ Phase Segmentation in Nickel-based Superalloys Using Detectron2 for Materials Informatics\". The repository contains code, annotations, dataset-version documentation, fixed train/validation split information, evaluation outputs, figures, trained-model artifacts where applicable, and reproducibility resources. The manuscript experiments used the original 99-image dataset with an 80/19 training-validation split. A later expanded 110-image dataset and associated 88/22 split are documented separately and are provided as subsequent research-development materials.",
   "creators": [
     {
-      "name": "Iwediba, Isaac Ifeanyi"
+      "name": "Iwediba, Isaac Ifeanyi",
+      "affiliation": "University of Strathclyde"
+    },
+    {
+      "name": "Vorontsov, Vassili A.",
+      "affiliation": "University of Strathclyde"
     }
   ],
   "keywords": [
     "gamma prime",
-    "nickel-based superalloy",
+    "nickel-based superalloys",
     "microstructure",
     "instance segmentation",
     "Mask R-CNN",
-    "Detectron2"
+    "Detectron2",
+    "materials informatics",
+    "machine learning"
   ],
   "version": "1.0.0",
-  "notes": "Before publication: add all co-authors/affiliations/ORCIDs/funding, confirm licences, add model_best_ap50.pth and optionally model_final.pth."
+  "notes": "This release distinguishes the original 99-image manuscript experiment from the subsequently expanded 110-image dataset and associated workflow. Third-party SEM micrographs are subject to the copyright and licensing terms of their original sources and are not redistributed where permission or licensing does not permit redistribution."
 }
