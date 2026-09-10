@@ -51,7 +51,7 @@ See `REPRODUCIBILITY.md`. The original notebook retains its historical Google Dr
 
 GitHub repository: https://github.com/Isaac-design-stack/gamma-prime-segmentation
 
-Zenodo DOI: [TO BE ADDED AFTER ZENODO PUBLICATION]
+Zenodo DOI: https://doi.org/10.5281/zenodo.22663353
 
 The Zenodo record provides the persistent archived release, including the
 large trained-model checkpoints required for reproducibility.
