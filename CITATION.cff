@@ -5,6 +5,8 @@ type: software
 authors:
   - family-names: "Iwediba"
     given-names: "Isaac Ifeanyi"
+  - family-names: "Vorontsov"
+    given-names: "Vassili A."
 version: "1.0.0"
 date-released: "2026-09-07"
 repository-code: "https://github.com/Isaac-design-stack/gamma-prime-segmentation"
