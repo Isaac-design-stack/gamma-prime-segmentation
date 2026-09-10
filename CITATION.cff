@@ -7,8 +7,8 @@ authors:
     given-names: "Isaac Ifeanyi"
 version: "1.0.0"
 date-released: "2026-09-07"
-repository-code: "GITHUB_URL_TO_BE_INSERTED"
-doi: "ZENODO_DOI_TO_BE_INSERTED"
+repository-code: "https://github.com/Isaac-design-stack/gamma-prime-segmentation"
+doi: "https://doi.org/10.5281/zenodo.22663353"
 keywords:
   - gamma prime
   - nickel-based superalloy
