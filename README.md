@@ -1,44 +1,37 @@
-# γ′ Instance Segmentation in Ni-Based Superalloy Microstructures
+# Segmentation-Derived Morphology for Materials Informatics in Ni-Based Superalloys
 
-This is the public-release package for the one-class γ′ (`gamma_prime`) instance-segmentation workflow based on Detectron2 Mask R-CNN.
+Version 2.0.0
 
-## Archived experiment
-
-The files in this release were assembled from the completed experiment, not reconstructed from manuscript values. Internal consistency checks on this package confirm:
-
-- **110 source micrographs**
-- **30,305 COCO γ′ instance annotations**
-- **88 training images**
-- **22 validation images**
-- fixed split seed recorded in the notebook: **42**
-- reported evaluation checkpoint: **`model_best_ap50.pth`**
-- checkpoint-selection metric: **`segm/AP50`**
-- selected deployment confidence threshold: **0.40**
+This repository contains the data, trained model, analysis notebooks and result tables supporting the manuscript on acquisition-proxy effects, target/measurement dependencies, validation design and feature-group contributions in segmentation-driven γ′ materials informatics.
 
 ## Contents
 
-```text
-notebooks/       Exact executable notebook + lightweight output-stripped copy
-data/images/     110 merged micrographs
-data/annotations/Final COCO annotations and merge provenance logs
-data/splits/     Exact train.json and val.json used in the experiment
-models/          Location for large trained checkpoints
-results/metrics/ COCO evaluation, threshold sweep, deployment metrics
-results/figures/ Saved figures from the experiment
-docs/            Deposit/reproduction documentation and checksums
-```
+- `notebooks/01_segmentation_training_evaluation.ipynb` — Mask R-CNN training/evaluation workflow.
+- `notebooks/02_downstream_materials_informatics.ipynb` — proxy diagnostic, provisional group-disjoint nested CV, feature ablation and direct-count comparison.
+- `data/segmentation/train.json` — 88 training images, 23,603 γ′ annotations.
+- `data/segmentation/val.json` — 22 validation images, 6,702 γ′ annotations.
+- `model/model_final.pth` — trained Detectron2 checkpoint.
+- `data/morphology/` — segmentation-derived morphology for the 99 matched records.
+- `data/downstream/manuscript_analysis_dataset.csv` — composition, processing and recorded microstructural variables used in downstream analysis.
+- `results/` — manuscript-supporting numerical outputs.
+- `figures/` — final analysis figures available with this release.
 
-## Model weights
+## Dataset summary
 
-The large `.pth` files were not available to ChatGPT during package assembly. Before the Zenodo release, add `models/model_best_ap50.pth` and, if desired, `models/model_final.pth`. The best checkpoint is the important one for reproducing the reported evaluation.
+The segmentation dataset contains 110 SEM images with 30,305 annotated γ′ instances. The fixed split contains 88 training images (23,603 instances) and 22 validation images (6,702 instances). Downstream analysis uses 99 records matched to composition, processing and morphology data.
 
-## Running the work
+## Main evaluation design
 
-See `REPRODUCIBILITY.md`. The original notebook retains its historical Google Drive paths because it is the exact research record. A second copy with outputs removed is included for easier review. Only path variables should be updated when adapting the notebook to the repository structure.
+The downstream analysis evaluates five principal targets using provisional group-disjoint nested cross-validation. Groups are defined by exact equality across recorded composition and processing fields. This grouping is a conservative analytical device and does not establish physical specimen identity. Controlled ablations compare composition/processing features, segmentation-derived morphology and their combination.
 
-## Persistent archive
+Recorded γ′ size was measured using Fiji but numerically matches image scale in 96 of 99 records. It is therefore excluded from the principal downstream prediction targets and retained only for an acquisition-proxy diagnostic.
 
-**Zenodo DOI:** `[INSERT DOI AFTER PUBLICATION]`  
-**GitHub:** `[INSERT GITHUB REPOSITORY URL]`
+## Reproducibility
 
-After the first public Zenodo release, replace these placeholders and the corresponding placeholders in `CITATION.cff`, `.zenodo.json`, and `DATA_AVAILABILITY.md`.
+The archived COCO split files and trained checkpoint correspond to the segmentation workflow used for the manuscript. Raw SEM images are not included in this package unless redistribution permission is established separately. To rerun image-level training or inference, place the corresponding SEM files in a local image directory and update the path variables in the segmentation notebook.
+
+The downstream notebook is repository-relative and can be run from the `notebooks` directory after installing the dependencies.
+
+## Citation
+
+Please cite the associated manuscript and the archived Zenodo release. Update the DOI in `CITATION.cff` after publishing the new Zenodo version.

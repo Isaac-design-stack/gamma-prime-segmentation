@@ -1,0 +1,22 @@
+# Detectron2 configuration used for the single-class gamma-prime instance-segmentation model
+MODEL:
+  META_ARCHITECTURE: "GeneralizedRCNN"
+  WEIGHTS: "COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml"
+  ROI_HEADS:
+    NUM_CLASSES: 1
+  ANCHOR_GENERATOR:
+    SIZES: [[8, 16, 32, 64, 128]]
+    ASPECT_RATIOS: [[0.5, 1.0, 2.0]]
+DATASETS:
+  TRAIN: ["gamma_prime_train"]
+  TEST: ["gamma_prime_val"]
+SOLVER:
+  IMS_PER_BATCH: 1
+INPUT:
+  MIN_SIZE_TRAIN: [800]
+  MAX_SIZE_TRAIN: 1333
+TEST:
+  DETECTIONS_PER_IMAGE: 1000
+
+# The archived train.json and val.json are the fixed 88/22 image split used for evaluation.
+# The training notebook records the full solver schedule and augmentation pipeline.

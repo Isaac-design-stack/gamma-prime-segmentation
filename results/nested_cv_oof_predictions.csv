@@ -1,0 +1,595 @@
+target,outer_fold,file_key,actual,predicted,residual_actual_minus_predicted,absolute_error,selected_feature_strategy,selected_model
+features[0].fraction,1,image_1,0.81,0.734877241427929,0.07512275857207107,0.07512275857207107,Original Morphology only,CatBoost
+features[0].fraction,1,image_5,0.76,0.7115907906589662,0.048409209341033765,0.048409209341033765,Original Morphology only,CatBoost
+features[0].fraction,1,image_12,1.0,0.8055384728072962,0.19446152719270382,0.19446152719270382,Original Morphology only,CatBoost
+features[0].fraction,1,image_14,0.8,0.7788963451055798,0.021103654894420232,0.021103654894420232,Original Morphology only,CatBoost
+features[0].fraction,1,image_23,0.75,0.6887088944859303,0.06129110551406969,0.06129110551406969,Original Morphology only,CatBoost
+features[0].fraction,1,image_30,0.8,0.7927641769878083,0.007235823012191722,0.007235823012191722,Original Morphology only,CatBoost
+features[0].fraction,1,image_34,0.93,0.7924537399192235,0.13754626008077653,0.13754626008077653,Original Morphology only,CatBoost
+features[0].fraction,1,image_39,0.76,0.7611525645445965,-0.001152564544596446,0.001152564544596446,Original Morphology only,CatBoost
+features[0].fraction,1,image_51,0.72,0.7176562849670675,0.002343715032932514,0.002343715032932514,Original Morphology only,CatBoost
+features[0].fraction,1,image_53,0.73,0.8000288884610719,-0.07002888846107191,0.07002888846107191,Original Morphology only,CatBoost
+features[0].fraction,1,image_55,0.76,0.7531309916386747,0.006869008361325313,0.006869008361325313,Original Morphology only,CatBoost
+features[0].fraction,1,image_58,0.73,0.6186018885026894,0.1113981114973106,0.1113981114973106,Original Morphology only,CatBoost
+features[0].fraction,1,image_73,0.81,0.782215782646857,0.02778421735314307,0.02778421735314307,Original Morphology only,CatBoost
+features[0].fraction,1,image_75,0.88,0.7213185997165249,0.1586814002834751,0.1586814002834751,Original Morphology only,CatBoost
+features[0].fraction,1,image_84,0.77,0.8309026399103274,-0.060902639910327405,0.060902639910327405,Original Morphology only,CatBoost
+features[0].fraction,1,image_87,0.54,0.7575915743690591,-0.21759157436905907,0.21759157436905907,Original Morphology only,CatBoost
+features[0].fraction,1,image_95,0.93,0.926188442364273,0.0038115576357270475,0.0038115576357270475,Original Morphology only,CatBoost
+features[0].fraction,1,image_99,0.78,0.6654274345555264,0.11457256544447358,0.11457256544447358,Original Morphology only,CatBoost
+features[0].fraction,1,image_106,0.84,0.7809428665513849,0.05905713344861507,0.05905713344861507,Original Morphology only,CatBoost
+features[0].fraction,1,image_108,0.76,0.7421843816208252,0.01781561837917478,0.01781561837917478,Original Morphology only,CatBoost
+features[0].fraction,2,image_7,0.75,0.7840349999999994,-0.03403499999999937,0.03403499999999937,All Morphology,ExtraTrees
+features[0].fraction,2,image_11,0.61,0.8148200000000005,-0.20482000000000056,0.20482000000000056,All Morphology,ExtraTrees
+features[0].fraction,2,image_13,0.87,0.7730349999999998,0.09696500000000019,0.09696500000000019,All Morphology,ExtraTrees
+features[0].fraction,2,image_17,0.72,0.7594450000000005,-0.03944500000000051,0.03944500000000051,All Morphology,ExtraTrees
+features[0].fraction,2,image_19,0.71,0.7530999999999973,-0.04309999999999736,0.04309999999999736,All Morphology,ExtraTrees
+features[0].fraction,2,image_36,0.72,0.736209999999999,-0.01620999999999906,0.01620999999999906,All Morphology,ExtraTrees
+features[0].fraction,2,image_38,0.93,0.833440000000002,0.09655999999999809,0.09655999999999809,All Morphology,ExtraTrees
+features[0].fraction,2,image_41,0.82,0.8163549999999994,0.0036450000000005645,0.0036450000000005645,All Morphology,ExtraTrees
+features[0].fraction,2,image_43,0.93,0.8240800000000013,0.10591999999999879,0.10591999999999879,All Morphology,ExtraTrees
+features[0].fraction,2,image_50,0.65,0.7365199999999983,-0.08651999999999826,0.08651999999999826,All Morphology,ExtraTrees
+features[0].fraction,2,image_56,0.59,0.7300000000000023,-0.14000000000000234,0.14000000000000234,All Morphology,ExtraTrees
+features[0].fraction,2,image_60,1.0,0.9048050000000004,0.09519499999999959,0.09519499999999959,All Morphology,ExtraTrees
+features[0].fraction,2,image_76,0.73,0.6861799999999998,0.04382000000000019,0.04382000000000019,All Morphology,ExtraTrees
+features[0].fraction,2,image_79,0.83,0.7924400000000033,0.03755999999999671,0.03755999999999671,All Morphology,ExtraTrees
+features[0].fraction,2,image_80,0.84,0.860700000000001,-0.02070000000000105,0.02070000000000105,All Morphology,ExtraTrees
+features[0].fraction,2,image_81,0.62,0.7426400000000019,-0.12264000000000186,0.12264000000000186,All Morphology,ExtraTrees
+features[0].fraction,2,image_83,1.0,0.6670699999999983,0.3329300000000017,0.3329300000000017,All Morphology,ExtraTrees
+features[0].fraction,2,image_92,0.78,0.8206999999999983,-0.04069999999999829,0.04069999999999829,All Morphology,ExtraTrees
+features[0].fraction,2,image_100,0.85,0.7786550000000003,0.07134499999999966,0.07134499999999966,All Morphology,ExtraTrees
+features[0].fraction,2,image_105,0.84,0.8005699999999951,0.03943000000000485,0.03943000000000485,All Morphology,ExtraTrees
+features[0].fraction,3,image_4,0.83,0.8114749999999954,0.018525000000004566,0.018525000000004566,Original Morphology only,RandomForest
+features[0].fraction,3,image_8,0.69,0.6942920000000009,-0.004292000000000962,0.004292000000000962,Original Morphology only,RandomForest
+features[0].fraction,3,image_9,0.72,0.8576900000000018,-0.13769000000000187,0.13769000000000187,Original Morphology only,RandomForest
+features[0].fraction,3,image_10,0.71,0.8308150000000033,-0.12081500000000334,0.12081500000000334,Original Morphology only,RandomForest
+features[0].fraction,3,image_15,0.76,0.7728399999999992,-0.012839999999999185,0.012839999999999185,Original Morphology only,RandomForest
+features[0].fraction,3,image_21,0.88,0.8157049999999978,0.06429500000000221,0.06429500000000221,Original Morphology only,RandomForest
+features[0].fraction,3,image_24,0.73,0.6975199999999998,0.032480000000000175,0.032480000000000175,Original Morphology only,RandomForest
+features[0].fraction,3,image_32,0.66,0.7540250000000001,-0.09402500000000003,0.09402500000000003,Original Morphology only,RandomForest
+features[0].fraction,3,image_33,0.59,0.8056099999999984,-0.21560999999999841,0.21560999999999841,Original Morphology only,RandomForest
+features[0].fraction,3,image_35,0.73,0.7364749999999993,-0.006474999999999342,0.006474999999999342,Original Morphology only,RandomForest
+features[0].fraction,3,image_42,0.71,0.7214266666666675,-0.011426666666667584,0.011426666666667584,Original Morphology only,RandomForest
+features[0].fraction,3,image_44,0.83,0.8827500000000024,-0.052750000000002406,0.052750000000002406,Original Morphology only,RandomForest
+features[0].fraction,3,image_49,0.79,0.7706883333333329,0.01931166666666717,0.01931166666666717,Original Morphology only,RandomForest
+features[0].fraction,3,image_64,0.86,0.8409349999999982,0.019065000000001775,0.019065000000001775,Original Morphology only,RandomForest
+features[0].fraction,3,image_66,0.5075,0.8589549999999999,-0.35145499999999996,0.35145499999999996,Original Morphology only,RandomForest
+features[0].fraction,3,image_67,1.0,0.8266449999999994,0.1733550000000006,0.1733550000000006,Original Morphology only,RandomForest
+features[0].fraction,3,image_88,1.0,0.8441299999999992,0.15587000000000084,0.15587000000000084,Original Morphology only,RandomForest
+features[0].fraction,3,image_90,0.81,0.781649999999997,0.028350000000003095,0.028350000000003095,Original Morphology only,RandomForest
+features[0].fraction,3,image_91,0.81,0.7668059999999982,0.04319400000000184,0.04319400000000184,Original Morphology only,RandomForest
+features[0].fraction,3,image_102,0.57,0.6730583333333345,-0.10305833333333458,0.10305833333333458,Original Morphology only,RandomForest
+features[0].fraction,4,image_40,1.0,0.9019582234879298,0.09804177651207024,0.09804177651207024,Original Morphology only,CatBoost
+features[0].fraction,4,image_52,0.59,0.6542050277831579,-0.06420502778315795,0.06420502778315795,Original Morphology only,CatBoost
+features[0].fraction,4,image_54,0.7,0.7354559097526675,-0.03545590975266755,0.03545590975266755,Original Morphology only,CatBoost
+features[0].fraction,4,image_57,0.75,0.7513635467486801,-0.0013635467486801112,0.0013635467486801112,Original Morphology only,CatBoost
+features[0].fraction,4,image_59,0.5075,0.6183967469732227,-0.11089674697322272,0.11089674697322272,Original Morphology only,CatBoost
+features[0].fraction,4,image_61,0.89,0.8145767306963673,0.07542326930363275,0.07542326930363275,Original Morphology only,CatBoost
+features[0].fraction,4,image_65,0.8,0.8992241195229491,-0.09922411952294907,0.09922411952294907,Original Morphology only,CatBoost
+features[0].fraction,4,image_68,0.85,0.8018328268668586,0.04816717313314134,0.04816717313314134,Original Morphology only,CatBoost
+features[0].fraction,4,image_69,0.77,0.8487994709818661,-0.07879947098186613,0.07879947098186613,Original Morphology only,CatBoost
+features[0].fraction,4,image_70,0.5075,0.6361102662565056,-0.12861026625650562,0.12861026625650562,Original Morphology only,CatBoost
+features[0].fraction,4,image_72,0.8,0.7861898871520803,0.013810112847919775,0.013810112847919775,Original Morphology only,CatBoost
+features[0].fraction,4,image_74,0.72,0.7393570799056027,-0.01935707990560276,0.01935707990560276,Original Morphology only,CatBoost
+features[0].fraction,4,image_77,0.85,0.7398654389510788,0.11013456104892116,0.11013456104892116,Original Morphology only,CatBoost
+features[0].fraction,4,image_78,0.81,0.7901243868304032,0.01987561316959685,0.01987561316959685,Original Morphology only,CatBoost
+features[0].fraction,4,image_86,0.61,0.6846406615655185,-0.07464066156551852,0.07464066156551852,Original Morphology only,CatBoost
+features[0].fraction,4,image_89,0.77,0.8993834005643754,-0.12938340056437536,0.12938340056437536,Original Morphology only,CatBoost
+features[0].fraction,4,image_96,0.78,0.8294513569331708,-0.04945135693317082,0.04945135693317082,Original Morphology only,CatBoost
+features[0].fraction,4,image_104,0.81,0.8576276354525982,-0.04762763545259818,0.04762763545259818,Original Morphology only,CatBoost
+features[0].fraction,4,image_107,0.69,0.7387466553552987,-0.04874665535529876,0.04874665535529876,Original Morphology only,CatBoost
+features[0].fraction,4,image_109,1.0,0.6606725661410565,0.3393274338589435,0.3393274338589435,Original Morphology only,CatBoost
+features[0].fraction,5,image_2,0.92,0.7426870911556895,0.1773129088443105,0.1773129088443105,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_3,0.79,0.8360794605786941,-0.046079460578694054,0.046079460578694054,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_16,0.76,0.8097094714042704,-0.0497094714042704,0.0497094714042704,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_28,1.0,0.8177793923209917,0.18222060767900827,0.18222060767900827,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_29,0.8,0.7680470092661826,0.03195299073381741,0.03195299073381741,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_31,0.59,0.7254010866319835,-0.13540108663198358,0.13540108663198358,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_37,0.69,0.7266046223514899,-0.03660462235148998,0.03660462235148998,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_47,0.89,0.7813216431208347,0.10867835687916527,0.10867835687916527,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_62,0.7,0.7826846521983898,-0.08268465219838983,0.08268465219838983,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_63,0.75,0.7129490332287254,0.03705096677127462,0.03705096677127462,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_71,0.72,0.7680952381535444,-0.04809523815354444,0.04809523815354444,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_82,1.0,0.965537627821044,0.03446237217895598,0.03446237217895598,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_85,0.7,0.8301107619213283,-0.1301107619213283,0.1301107619213283,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_93,1.0,0.7207287694116702,0.2792712305883298,0.2792712305883298,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_94,0.67,0.6676629107261284,0.002337089273871662,0.002337089273871662,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_97,0.8,0.7950789323810277,0.0049210676189723745,0.0049210676189723745,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_98,0.68,0.7254042856679893,-0.045404285667989264,0.045404285667989264,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_101,0.5075,0.7338522147371076,-0.22635221473710765,0.22635221473710765,Materials Metadata + Original Morphology,CatBoost
+features[0].fraction,5,image_103,1.0,0.8662525192236891,0.13374748077631093,0.13374748077631093,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),1,image_1,1000.0,2405.8,-1405.8000000000002,1405.8000000000002,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_5,1000.0,2018.0,-1018.0,1018.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_12,3500.0,2367.0,1133.0,1133.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_14,1000.0,2231.0,-1231.0,1231.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_23,2000.0,2161.8,-161.80000000000018,161.80000000000018,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_30,3500.0,1654.4,1845.6,1845.6,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_34,1000.0,1517.2,-517.2,517.2,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_39,1000.0,1035.0,-35.0,35.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_51,3500.0,3427.0,73.0,73.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_53,1000.0,1212.8,-212.79999999999995,212.79999999999995,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_55,1000.0,1057.2,-57.200000000000045,57.200000000000045,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_58,2000.0,2339.2,-339.1999999999998,339.1999999999998,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_73,1000.0,1311.0,-311.0,311.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_75,1000.0,1305.8,-305.79999999999995,305.79999999999995,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_84,1000.0,1001.4,-1.3999999999999773,1.3999999999999773,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_87,2000.0,1868.4,131.5999999999999,131.5999999999999,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_95,2000.0,1832.0,168.0,168.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_99,1000.0,1479.0,-479.0,479.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_106,3500.0,2010.0,1490.0,1490.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),1,image_108,3500.0,2176.0,1324.0,1324.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_7,2000.0,1918.0,82.0,82.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_11,500.0,1360.6,-860.5999999999999,860.5999999999999,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_13,1000.0,1280.6,-280.5999999999999,280.5999999999999,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_17,1000.0,2311.6,-1311.6,1311.6,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_19,1000.0,1224.4,-224.4000000000001,224.4000000000001,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_36,1000.0,1748.4,-748.4000000000001,748.4000000000001,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_38,3500.0,2222.0,1278.0,1278.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_41,2000.0,1353.0,647.0,647.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_43,1000.0,2357.0,-1357.0,1357.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_50,2000.0,2519.0,-519.0,519.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_56,1000.0,2069.0,-1069.0,1069.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_60,1000.0,1240.0,-240.0,240.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_76,1000.0,1369.8,-369.79999999999995,369.79999999999995,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_79,2000.0,2167.4,-167.4000000000001,167.4000000000001,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_80,2000.0,2351.0,-351.0,351.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_81,2000.0,3226.6,-1226.6,1226.6,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_83,1000.0,1455.0,-455.0,455.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_92,2000.0,1954.0,46.0,46.0,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_100,1000.0,2256.6,-1256.6,1256.6,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),2,image_105,1000.0,1932.6,-932.5999999999999,932.5999999999999,Materials Metadata + Original Morphology,ExtraTrees
+features[0].size(nm),3,image_4,1000.0,1323.28060450659,-323.28060450658995,323.28060450658995,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_8,1000.0,1574.0104480302905,-574.0104480302905,574.0104480302905,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_9,2000.0,1397.6766851697587,602.3233148302413,602.3233148302413,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_10,2000.0,2440.7588418866294,-440.7588418866294,440.7588418866294,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_15,1000.0,1776.8499892962668,-776.8499892962668,776.8499892962668,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_21,2000.0,2041.2837730724245,-41.28377307242454,41.28377307242454,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_24,1000.0,1140.9711392182894,-140.9711392182894,140.9711392182894,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_32,1000.0,1067.641371795445,-67.64137179544491,67.64137179544491,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_33,3500.0,1406.806834452743,2093.193165547257,2093.193165547257,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_35,2000.0,2314.8549594389783,-314.8549594389783,314.8549594389783,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_42,2000.0,1372.5641450796393,627.4358549203607,627.4358549203607,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_44,3500.0,2862.7269275256176,637.2730724743824,637.2730724743824,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_49,2000.0,1505.8243426366278,494.17565736337224,494.17565736337224,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_64,1000.0,906.8015270682079,93.19847293179214,93.19847293179214,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_66,2000.0,2029.4048980558437,-29.40489805584366,29.40489805584366,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_67,1000.0,972.1305923986688,27.869407601331204,27.869407601331204,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_88,1000.0,853.0284098097827,146.97159019021728,146.97159019021728,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_90,1000.0,1007.2921862437889,-7.292186243788933,7.292186243788933,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_91,1000.0,1654.537522628655,-654.5375226286551,654.5375226286551,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),3,image_102,3500.0,2738.059428905106,761.940571094894,761.940571094894,Materials Metadata + Original Morphology,CatBoost
+features[0].size(nm),4,image_40,1000.0,1175.6,-175.5999999999999,175.5999999999999,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_52,1000.0,2144.0,-1144.0,1144.0,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_54,1000.0,1078.8,-78.79999999999995,78.79999999999995,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_57,500.0,1913.0,-1413.0,1413.0,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_59,2000.0,1781.2,218.79999999999995,218.79999999999995,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_61,2000.0,1521.4,478.5999999999999,478.5999999999999,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_65,3500.0,2047.2,1452.8,1452.8,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_68,2000.0,1767.6,232.4000000000001,232.4000000000001,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_69,2000.0,1755.0,245.0,245.0,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_70,2000.0,1913.8,86.20000000000005,86.20000000000005,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_72,1000.0,1247.4,-247.4000000000001,247.4000000000001,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_74,2000.0,2193.0,-193.0,193.0,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_77,3500.0,1939.0,1561.0,1561.0,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_78,1000.0,1869.4,-869.4000000000001,869.4000000000001,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_86,3500.0,2129.4,1370.6,1370.6,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_89,2000.0,1518.2,481.79999999999995,481.79999999999995,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_96,2000.0,1904.4,95.59999999999991,95.59999999999991,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_104,2000.0,1399.0,601.0,601.0,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_107,1000.0,1286.8,-286.79999999999995,286.79999999999995,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),4,image_109,1000.0,1431.0,-431.0,431.0,Materials Metadata + Original Morphology,RandomForest
+features[0].size(nm),5,image_2,1000.0,1571.0,-571.0,571.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_3,2000.0,1456.0,544.0,544.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_16,1000.0,1024.0,-24.0,24.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_28,3500.0,1930.0,1570.0,1570.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_29,3500.0,1840.0,1660.0,1660.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_31,2000.0,1364.0,636.0,636.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_37,3500.0,2889.0,611.0,611.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_47,200.0,1421.0,-1221.0,1221.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_62,1000.0,1312.0,-312.0,312.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_63,1000.0,1021.0,-21.0,21.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_71,1000.0,1085.0,-85.0,85.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_82,1000.0,1332.0,-332.0,332.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_85,1000.0,1183.0,-183.0,183.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_93,1000.0,2834.0,-1834.0,1834.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_94,3500.0,3104.0,396.0,396.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_97,2000.0,2275.0,-275.0,275.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_98,3500.0,3318.0,182.0,182.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_101,2000.0,1589.0,411.0,411.0,Materials Metadata + All Morphology,ExtraTrees
+features[0].size(nm),5,image_103,1000.0,2318.0,-1318.0,1318.0,Materials Metadata + All Morphology,ExtraTrees
+microstructure[0].count,1,image_1,219.0,184.258,34.74199999999999,34.74199999999999,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_5,617.0,232.084,384.916,384.916,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_12,617.0,507.658,109.34199999999998,109.34199999999998,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_14,202.0,256.354,-54.353999999999985,54.353999999999985,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_23,384.0,250.03,133.97,133.97,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_30,422.0,417.056,4.944000000000017,4.944000000000017,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_34,141.0,243.808,-102.80799999999999,102.80799999999999,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_39,144.0,215.928,-71.928,71.928,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_51,308.0,449.048,-141.048,141.048,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_53,504.0,95.284,408.716,408.716,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_55,58.0,97.538,-39.538,39.538,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_58,168.0,105.0,63.0,63.0,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_73,145.0,156.914,-11.913999999999987,11.913999999999987,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_75,117.0,110.266,6.733999999999995,6.733999999999995,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_84,94.0,196.57,-102.57,102.57,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_87,144.0,167.256,-23.256,23.256,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_95,358.0,147.976,210.024,210.024,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_99,93.0,289.566,-196.56599999999997,196.56599999999997,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_106,162.0,337.048,-175.048,175.048,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,1,image_108,177.0,52.874,124.126,124.126,Materials Metadata + Expanded Morphology,ExtraTrees
+microstructure[0].count,2,image_7,128.0,313.322,-185.322,185.322,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_11,45.0,84.982,-39.982,39.982,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_13,44.0,150.448,-106.44800000000001,106.44800000000001,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_17,119.0,167.092,-48.09200000000001,48.09200000000001,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_19,156.0,176.444,-20.44399999999999,20.44399999999999,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_36,51.0,77.352,-26.352000000000004,26.352000000000004,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_38,481.0,455.036,25.964,25.964,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_41,313.0,336.398,-23.398000000000025,23.398000000000025,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_43,332.0,459.558,-127.55799999999999,127.55799999999999,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_50,591.0,97.25,493.75,493.75,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_56,105.0,168.0,-63.0,63.0,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_60,98.0,81.966,16.034000000000006,16.034000000000006,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_76,203.0,267.888,-64.88799999999998,64.88799999999998,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_79,522.0,392.016,129.98399999999998,129.98399999999998,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_80,403.0,562.794,-159.79399999999998,159.79399999999998,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_81,604.0,352.314,251.68599999999998,251.68599999999998,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_83,115.0,165.19,-50.19,50.19,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_92,131.0,139.546,-8.545999999999992,8.545999999999992,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_100,73.0,192.396,-119.39599999999999,119.39599999999999,Expanded Morphology only,ExtraTrees
+microstructure[0].count,2,image_105,122.0,129.454,-7.454000000000008,7.454000000000008,Expanded Morphology only,ExtraTrees
+microstructure[0].count,3,image_4,337.0,274.758,62.24200000000002,62.24200000000002,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_8,186.0,210.49,-24.49000000000001,24.49000000000001,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_9,228.0,233.366,-5.366000000000014,5.366000000000014,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_10,576.0,414.63,161.37,161.37,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_15,114.0,147.496,-33.49600000000001,33.49600000000001,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_21,66.0,116.604,-50.604,50.604,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_24,62.0,259.038,-197.038,197.038,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_32,86.0,82.246,3.754000000000005,3.754000000000005,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_33,475.0,245.044,229.956,229.956,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_35,472.0,455.596,16.403999999999996,16.403999999999996,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_42,141.0,222.268,-81.268,81.268,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_44,617.0,488.284,128.716,128.716,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_49,132.0,203.392,-71.392,71.392,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_64,235.0,279.918,-44.918000000000006,44.918000000000006,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_66,265.0,267.708,-2.708000000000027,2.708000000000027,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_67,84.0,265.626,-181.62599999999998,181.62599999999998,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_88,68.0,258.802,-190.80200000000002,190.80200000000002,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_90,74.0,165.534,-91.53399999999999,91.53399999999999,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_91,96.0,165.008,-69.00800000000001,69.00800000000001,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,3,image_102,181.0,108.812,72.188,72.188,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_40,237.0,260.958,-23.958000000000027,23.958000000000027,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_52,33.0,90.708,-57.708,57.708,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_54,74.0,104.302,-30.302000000000007,30.302000000000007,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_57,13.0,117.966,-104.966,104.966,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_59,269.0,255.164,13.836000000000013,13.836000000000013,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_61,269.0,170.928,98.072,98.072,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_65,455.0,509.672,-54.672000000000025,54.672000000000025,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_68,277.0,244.084,32.916,32.916,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_69,144.0,195.576,-51.57599999999999,51.57599999999999,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_70,32.0,134.446,-102.446,102.446,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_72,301.0,274.45,26.55000000000001,26.55000000000001,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_74,150.0,125.104,24.896,24.896,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_77,103.0,106.82,-3.819999999999993,3.819999999999993,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_78,434.0,361.9,72.10000000000002,72.10000000000002,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_86,102.0,100.918,1.0819999999999936,1.0819999999999936,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_89,157.0,199.612,-42.611999999999995,42.611999999999995,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_96,132.0,385.808,-253.808,253.808,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_104,116.0,243.372,-127.37200000000001,127.37200000000001,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_107,129.0,207.928,-78.928,78.928,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,4,image_109,81.0,64.51,16.489999999999995,16.489999999999995,Materials Metadata + Original Morphology,ExtraTrees
+microstructure[0].count,5,image_2,221.0,235.15356383640514,-14.15356383640514,14.15356383640514,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_3,302.0,240.19074084178445,61.80925915821555,61.80925915821555,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_16,94.0,110.15677998465827,-16.15677998465827,16.15677998465827,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_28,199.0,206.28053638223275,-7.280536382232754,7.280536382232754,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_29,207.0,179.33955352649025,27.66044647350975,27.66044647350975,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_31,163.0,220.72495069713312,-57.724950697133124,57.724950697133124,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_37,465.0,449.42986200850487,15.57013799149513,15.57013799149513,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_47,319.0,218.06691352311606,100.93308647688394,100.93308647688394,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_62,187.0,195.3504896526736,-8.350489652673588,8.350489652673588,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_63,93.0,184.3633133201044,-91.3633133201044,91.3633133201044,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_71,87.0,160.8724833138216,-73.87248331382159,73.87248331382159,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_82,264.0,244.34821249639703,19.651787503602975,19.651787503602975,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_85,74.0,95.74237960014557,-21.74237960014557,21.74237960014557,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_93,199.0,229.54846128094522,-30.54846128094522,30.54846128094522,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_94,74.0,201.39413006793356,-127.39413006793356,127.39413006793356,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_97,424.0,409.97859860259354,14.021401397406464,14.021401397406464,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_98,294.0,503.9006161468663,-209.9006161468663,209.9006161468663,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_101,29.0,57.75926563357473,-28.759265633574728,28.759265633574728,Materials Metadata + All Morphology,CatBoost
+microstructure[0].count,5,image_103,372.0,366.7360824468419,5.26391755315808,5.26391755315808,Materials Metadata + All Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_1,37280439.7,45634917.35361342,-8354477.653613418,8354477.653613418,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_5,29349099.57,19575199.02892764,9773900.541072361,9773900.541072361,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_12,99479575.193,65658939.80874737,33820635.38425263,33820635.38425263,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_14,28049337.27,40038033.30630237,-11988696.03630237,11988696.03630237,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_23,39321634.29,40374028.8738398,-1052394.583839804,1052394.583839804,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_30,86966987.94,48854167.58145505,38112820.358544946,38112820.358544946,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_34,23163176.34,16427094.525419923,6736081.814580077,6736081.814580077,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_39,22559386.88,24211812.1959055,-1652425.3159055002,1652425.3159055002,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_51,42206629.2,53632263.84904747,-11425634.649047464,11425634.649047464,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_53,9770903.566,8990372.522003412,780531.0439965874,780531.0439965874,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_55,12492047.53,9721796.618035141,2770250.911964858,2770250.911964858,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_58,29189074.41,18060996.84562567,11128077.564374331,11128077.564374331,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_73,23847.0,17210078.905034516,-17186231.905034516,17186231.905034516,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_75,5010063.331,26885997.541299313,-21875934.210299313,21875934.210299313,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_84,17979618.36,29248005.179670323,-11268386.819670323,11268386.819670323,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_87,19354440.35,15504339.74371594,3850100.6062840614,3850100.6062840614,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_95,9007284.091,20368969.851853736,-11361685.760853736,11361685.760853736,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_99,9116411.574,23957601.014169585,-14841189.440169586,14841189.440169586,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_106,99479575.193,38875858.512574054,60603716.68042595,60603716.68042595,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),1,image_108,81036898.46,22786781.81366586,58250116.646334134,58250116.646334134,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),2,image_7,23225712.11,44298896.229103185,-21073184.119103186,21073184.119103186,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_11,5947200.0,13596540.679586876,-7649340.679586876,7649340.679586876,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_13,12266436.11,27575434.877659112,-15308998.767659113,15308998.767659113,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_17,34535000.0,33914020.180311725,620979.8196882755,620979.8196882755,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_19,21088744.55,34104091.945876494,-13015347.395876493,13015347.395876493,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_36,10733621.29,44068693.95884101,-33335072.66884101,33335072.66884101,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_38,99479575.193,46163767.003493905,53315808.1895061,53315808.1895061,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_41,34410801.36,35683993.695733316,-1273192.3357333168,1273192.3357333168,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_43,61293409.3,76067917.59467232,-14774508.294672325,14774508.294672325,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_50,12448225.77,21497574.767747216,-9049348.997747216,9049348.997747216,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_56,3505581.136,30169636.596505795,-26664055.460505795,26664055.460505795,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_60,6881010.268,2897337.7175700217,3983672.5504299784,3983672.5504299784,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_76,31265688.6,38099517.67974453,-6833829.079744525,6833829.079744525,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_79,54658614.4,80580294.35827251,-25921679.95827251,25921679.95827251,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_80,53607786.61,91058068.77511647,-37450282.165116474,37450282.165116474,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_81,69111273.22,65408312.73359217,3702960.4864078313,3702960.4864078313,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_83,37517417.49,32340909.39110755,5176508.09889245,5176508.09889245,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_92,16005019.91,39282599.89588376,-23277579.98588376,23277579.98588376,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_100,18273673.46,31665610.12822609,-13391936.66822609,13391936.66822609,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),2,image_105,15086875.0,32101746.378119905,-17014871.378119905,17014871.378119905,Original Morphology only,CatBoost
+microstructure[1].total area(nm²),3,image_4,44092603.98,29850736.0,14241867.979999997,14241867.979999997,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_8,30962688.88,32516016.0,-1553327.120000001,1553327.120000001,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_9,24377297.2,32151406.0,-7774108.800000001,7774108.800000001,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_10,47464880.0,72861904.0,-25397024.0,25397024.0,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_15,35104522.62,21333386.0,13771136.619999997,13771136.619999997,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_21,57688481.03,12518156.0,45170325.03,45170325.03,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_24,6048814.85,15157185.0,-9108370.15,9108370.15,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_32,9423309.911,8406353.0,1016956.9110000003,1016956.9110000003,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_33,2827330.636,18356260.0,-15528929.364,15528929.364,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_35,46199759.68,47645488.0,-1445728.3200000003,1445728.3200000003,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_42,58228126.43,24025888.0,34202238.43,34202238.43,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_44,99479575.193,76005024.0,23474551.193000004,23474551.193000004,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_49,49153696.51,27525438.0,21628258.509999998,21628258.509999998,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_64,13156442.43,17807784.0,-4651341.57,4651341.57,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_66,28876999.61,31088672.0,-2211672.3900000006,2211672.3900000006,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_67,13731.0,9549329.0,-9535598.0,9535598.0,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_88,12.885,8147097.0,-8147084.115,8147084.115,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_90,552477.041,19300216.0,-18747738.959,18747738.959,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_91,727158.151,21492464.0,-20765305.849,20765305.849,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),3,image_102,38578853.48,14090033.0,24488820.479999997,24488820.479999997,Materials Metadata + All Morphology,XGBoost
+microstructure[1].total area(nm²),4,image_40,45492567.39,31873240.163198072,13619327.226801928,13619327.226801928,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_52,5323974.641,42033908.48786584,-36709933.84686584,36709933.84686584,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_54,11847703.98,7819788.440043747,4027915.539956253,4027915.539956253,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_57,4266555.609,137495415.32592982,-133228859.71692982,133228859.71692982,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_59,28058171.74,31835375.155885484,-3777203.4158854857,3777203.4158854857,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_61,39828973.34,14113782.167773118,25715191.172226883,25715191.172226883,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_65,99479575.193,61999832.89073357,37479742.302266434,37479742.302266434,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_68,36748972.11,32146703.316647824,4602268.7933521755,4602268.7933521755,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_69,79348394.93,16229402.663474046,63118992.26652596,63118992.26652596,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_70,7248513.71,20221099.063992128,-12972585.353992127,12972585.353992127,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_72,51853286.97,33107777.061676867,18745509.90832313,18745509.90832313,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_74,3331637.583,16898080.97320097,-13566443.390200969,13566443.390200969,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_77,99479575.193,34738996.128957495,64740579.06404251,64740579.06404251,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_78,56899086.55,50847334.58777946,6051751.962220535,6051751.962220535,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_86,46449151.75,17085000.05106329,29364151.69893671,29364151.69893671,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_89,41901176.53,25449778.29022807,16451398.239771932,16451398.239771932,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_96,47548531.54,44109348.897472754,3439182.642527245,3439182.642527245,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_104,45292968.56,14284249.862321265,31008718.697678737,31008718.697678737,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_107,10410207.96,13366196.813855886,-2955988.8538558856,2955988.8538558856,Original Morphology only,Ridge
+microstructure[1].total area(nm²),4,image_109,16031727.26,17387111.65184685,-1355384.3918468487,1355384.3918468487,Original Morphology only,Ridge
+microstructure[1].total area(nm²),5,image_2,26111758.01,26421334.510716792,-309576.50071679056,309576.50071679056,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_3,95677419.29,34386625.20443366,61290794.08556635,61290794.08556635,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_16,17279809.3,11209106.531113658,6070702.768886343,6070702.768886343,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_28,57748381.24,35187355.27323208,22561025.966767922,22561025.966767922,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_29,31328971.89,19286411.965695355,12042559.924304646,12042559.924304646,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_31,29656177.72,26938656.618792392,2717521.1012076065,2717521.1012076065,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_37,59790693.51,51010302.756635465,8780390.753364533,8780390.753364533,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_47,7272442.849,53696958.45967309,-46424515.61067309,46424515.61067309,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_62,31172952.25,36577798.39534858,-5404846.145348579,5404846.145348579,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_63,7931628.83,12387422.915716652,-4455794.085716652,4455794.085716652,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_71,28383.0,20816938.852982454,-20788555.852982454,20788555.852982454,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_82,39297777.7,38836710.377828926,461067.32217107713,461067.32217107713,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_85,11865124.25,16142852.18985283,-4277727.93985283,4277727.93985283,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_93,1314743.1,35167687.0939965,-33852943.9939965,33852943.9939965,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_94,4538872.871,27194830.789475244,-22655957.918475244,22655957.918475244,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_97,35060506.17,60012506.26846445,-24952000.09846445,24952000.09846445,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_98,41054814.14,40127188.27421149,927625.8657885119,927625.8657885119,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_101,6161663.523,24187493.13316117,-18025829.61016117,18025829.61016117,Materials Metadata + Original Morphology,CatBoost
+microstructure[1].total area(nm²),5,image_103,12904960.29,58202189.677847974,-45297229.387847975,45297229.387847975,Materials Metadata + Original Morphology,CatBoost
+microstructure[2].Average area(nm²),1,image_1,170230.318,197574.77516199954,-27344.45716199954,27344.45716199954,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_5,3667.262,56440.59597499975,-52773.33397499975,52773.33397499975,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_12,297774.51,125159.23654200045,172615.27345799957,172615.27345799957,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_14,138858.105,151083.94626349997,-12225.841263499955,12225.841263499955,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_23,102400.089,161015.53900800002,-58615.450008000014,58615.450008000014,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_30,206082.91,108700.45906500008,97382.45093499993,97382.45093499993,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_34,164277.846,141553.58526999972,22724.26073000027,22724.26073000027,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_39,156662.409,150436.92296200004,6225.486037999974,6225.486037999974,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_51,137034.51,134205.91922700015,2828.590772999858,2828.590772999858,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_53,95793.172,190701.13957049957,-94907.96757049956,94907.96757049956,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_55,215380.13,199174.65113150113,16205.478868498874,16205.478868498874,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_58,173744.491,33386.48699999982,140358.0040000002,140358.0040000002,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_73,164.462,121055.20051299954,-120890.73851299954,120890.73851299954,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_75,42821.054,177446.22689499953,-134625.17289499953,134625.17289499953,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_84,191272.536,123331.95438099942,67940.58161900057,67940.58161900057,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_87,134405.836,118850.7001000003,15555.135899999717,15555.135899999717,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_95,25160.011,77738.32883650002,-52578.31783650002,52578.31783650002,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_99,98025.931,101325.41540299948,-3299.4844029994856,3299.4844029994856,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_106,385087.40775,128819.67745049999,256267.73029950002,256267.73029950002,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),1,image_108,385087.40775,338217.9241585003,46869.48359149974,46869.48359149974,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_7,181450.876,133318.58047499982,48132.29552500017,48132.29552500017,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_11,132160.0,141829.07785949987,-9669.07785949987,9669.07785949987,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_13,278782.639,282624.86913749937,-3842.2301374993403,3842.2301374993403,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_17,290210.084,287679.9995379992,2530.0844620007556,2530.0844620007556,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_19,135184.26,182068.98144199964,-46884.72144199963,46884.72144199963,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_36,210463.163,294938.3893409994,-84475.22634099942,84475.22634099942,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_38,209548.331,139762.91049850045,69785.42050149955,69785.42050149955,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_41,109938.662,94158.93327199966,15779.728728000337,15779.728728000337,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_43,184618.703,155181.4729880005,29437.23001199952,29437.23001199952,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_50,210986.878,75270.62114150023,135716.25685849978,135716.25685849978,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_56,33386.487,173744.4909999981,-140358.0039999981,140358.0039999981,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_60,70214.39,111310.96876800047,-41096.57876800047,41096.57876800047,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_76,154018.17,182230.48770700028,-28212.31770700027,28212.31770700027,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_79,104709.989,239763.27426200005,-135053.28526200005,135053.28526200005,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_80,133021.803,283755.3533790015,-150733.55037900148,150733.55037900148,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_81,114422.638,215172.8451060007,-100750.20710600069,100750.20710600069,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_83,326238.413,230641.0360234993,95597.3769765007,95597.3769765007,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_92,122175.725,208443.01329799969,-86267.28829799968,86267.28829799968,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_100,250324.294,314906.55530850025,-64582.26130850025,64582.26130850025,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),2,image_105,123662.91,262461.28038799914,-138798.37038799914,138798.37038799914,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),3,image_4,130838.587,173117.72192000016,-42279.13492000016,42279.13492000016,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_8,166466.069,149663.86942690078,16802.199573099206,16802.199573099206,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_9,106917.97,155562.4581566673,-48644.4881566673,48644.4881566673,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_10,82404.306,131247.83467026695,-48843.528670266955,48843.528670266955,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_15,307934.409,154641.87261739996,153292.53638260002,153292.53638260002,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_21,385087.40775,200251.15654250025,184836.25120749976,184836.25120749976,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_24,97561.53,166708.4832237527,-69146.9532237527,69146.9532237527,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_32,109573.371,71935.97093276658,37637.40006723342,37637.40006723342,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_33,5952.275,230772.50891569088,-224820.2339156909,224820.2339156909,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_35,97880.847,112627.61232063312,-14746.76532063313,14746.76532063313,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_42,385087.40775,185861.96300116676,199225.44474883325,199225.44474883325,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_44,315634.097,229783.61786180013,85850.47913819988,85850.47913819988,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_49,372376.489,147104.3740091279,225272.1149908721,225272.1149908721,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_64,97455.129,117088.70724941925,-19633.578249419254,19633.578249419254,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_66,108969.81,130077.19286860051,-21107.382868600514,21107.382868600514,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_67,163.464,177772.48862830029,-177609.02462830028,177609.02462830028,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_88,0.189,205379.85663000034,-205379.66763000033,205379.66763000033,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_90,7465.906,187710.41675283393,-180244.51075283394,180244.51075283394,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_91,7574.564,157909.60958050008,-150335.04558050007,150335.04558050007,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),3,image_102,213142.837,248222.33620870035,-35079.49920870035,35079.49920870035,Materials Metadata only,RandomForest
+microstructure[2].Average area(nm²),4,image_40,191951.761,129119.69866899945,62832.06233100055,62832.06233100055,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_52,161332.565,234832.72770050014,-73500.16270050014,73500.16270050014,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_54,160104.108,117659.86751449943,42444.24048550057,42444.24048550057,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_57,328196.585,376737.15982800175,-48540.57482800173,48540.57482800173,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_59,104305.471,111551.42824600036,-7245.957246000355,7245.957246000355,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_61,148063.098,147772.68585449926,290.41214550074073,290.41214550074073,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_65,220429.825,181633.7503859996,38796.07461400042,38796.07461400042,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_68,132667.769,124296.16705999993,8371.601940000066,8371.601940000066,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_69,385087.40775,258034.00948949906,127053.39826050095,127053.39826050095,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_70,226516.053,203845.26160750064,22670.791392499377,22670.791392499377,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_72,172270.056,161774.71922899998,10495.336771000031,10495.336771000031,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_74,22210.917,131089.01823300082,-108878.10123300082,108878.10123300082,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_77,385087.40775,219328.25140050126,165759.15634949875,165759.15634949875,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_78,131103.886,173451.24744599964,-42347.361445999646,42347.361445999646,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_86,385087.40775,264843.6644514998,120243.7432985002,120243.7432985002,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_89,266886.475,164662.36773600057,102224.10726399941,102224.10726399941,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_96,360216.148,130418.65024999937,229797.49775000062,229797.49775000062,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_104,385087.40775,173067.2216200001,212020.1861299999,212020.1861299999,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_107,80699.286,126805.11393999959,-46105.827939999595,46105.827939999595,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),4,image_109,197922.559,198036.3971015,-113.838101500005,113.838101500005,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_2,118152.751,189384.04314849948,-71231.29214849947,71231.29214849947,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_3,316812.647,146168.66075550034,170643.98624449965,170643.98624449965,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_16,183827.758,83231.49034850037,100596.26765149963,100596.26765149963,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_28,290192.871,295022.55756399804,-4829.686563998053,4829.686563998053,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_29,151347.69,190719.20002199954,-39371.51002199954,39371.51002199954,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_31,181939.741,167979.27758200103,13960.46341799898,13960.46341799898,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_37,128582.137,167696.99014650006,-39114.853146500056,39114.853146500056,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_47,22797.626,189488.01421800008,-166690.3882180001,166690.3882180001,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_62,166700.279,89806.72174499968,76893.55725500033,76893.55725500033,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_63,85286.332,50777.44793350027,34508.884066499726,34508.884066499726,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_71,326.241,135317.64696400074,-134991.40596400073,134991.40596400073,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_82,148855.219,180450.10906550116,-31594.890065501153,31594.890065501153,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_85,160339.517,119814.7215840005,40524.7954159995,40524.7954159995,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_93,11048.261,69542.93139249971,-58494.67039249971,58494.67039249971,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_94,61336.12,214733.9717000008,-153397.8517000008,153397.8517000008,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_97,66909.363,200204.38833750013,-133295.02533750015,133295.02533750015,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_98,139642.225,150257.82664850002,-10615.601648500015,10615.601648500015,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_101,212471.156,219454.83897900145,-6983.68297900146,6983.68297900146,Original Morphology only,ExtraTrees
+microstructure[2].Average area(nm²),5,image_103,34690.753,161949.59243800066,-127258.83943800066,127258.83943800066,Original Morphology only,ExtraTrees
+microstructure[3].percentage area,1,image_1,0.5253,28.44310815999994,-27.91780815999994,27.91780815999994,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_5,5.5093,25.388798800000004,-19.879498800000004,19.879498800000004,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_12,0.4863,21.915189520000038,-21.428889520000038,21.428889520000038,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_14,0.2967,23.679652039999983,-23.38295203999998,23.38295203999998,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_23,0.3756,16.56854404,-16.19294404,16.19294404,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_30,5.4286,12.355402079999992,-6.926802079999992,6.926802079999992,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_34,0.4925,20.428592359999993,-19.936092359999993,19.936092359999993,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_39,0.4926,16.46916580000002,-15.97656580000002,15.97656580000002,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_51,41.725,23.579282759999945,18.145717240000057,18.145717240000057,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_53,48.214,15.580368159999985,32.633631840000014,32.633631840000014,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_55,45.533,25.642656760000005,19.890343239999996,19.890343239999996,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_58,41.872,32.4871229600001,9.3848770399999,9.3848770399999,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_73,48.842,28.486107040000025,20.355892959999974,20.355892959999974,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_75,52.372,31.24259287999995,21.12940712000005,21.12940712000005,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_84,33.258,34.515526400000034,-1.2575264000000317,1.2575264000000317,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_87,40.334,30.40992503999999,9.924074960000013,9.924074960000013,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_95,28.646,26.666538959999965,1.9794610400000359,1.9794610400000359,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_99,23.373,25.584977159999987,-2.211977159999986,2.211977159999986,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_106,31.486,18.65843407999998,12.82756592000002,12.82756592000002,All Morphology,RandomForest
+microstructure[3].percentage area,1,image_108,38.998,25.015123559999996,13.982876440000002,13.982876440000002,All Morphology,RandomForest
+microstructure[3].percentage area,2,image_7,0.2063,16.747931200000007,-16.54163120000001,16.54163120000001,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_11,0.4147,31.8121388,-31.3974388,31.3974388,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_13,0.3158,42.789317079999904,-42.4735170799999,42.4735170799999,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_17,0.3649,26.697858639999893,-26.332958639999895,26.332958639999895,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_19,0.505,9.212811479999985,-8.707811479999984,8.707811479999984,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_36,0.5336,35.400989799999905,-34.867389799999906,34.867389799999906,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_38,0.5275,26.649956200000094,-26.122456200000094,26.122456200000094,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_41,0.533,32.241922200000076,-31.708922200000075,31.708922200000075,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_43,0.4619,20.097180000000023,-19.635280000000023,19.635280000000023,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_50,0.2364,26.340966599999867,-26.104566599999867,26.104566599999867,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_56,42.287,29.728898959999828,12.558101040000171,12.558101040000171,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_60,59.244,47.565286000000114,11.678713999999886,11.678713999999886,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_76,32.746,5.905037600000015,26.840962399999988,26.840962399999988,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_79,38.079,15.637198200000054,22.441801799999947,22.441801799999947,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_80,36.808,10.472628799999942,26.335371200000058,26.335371200000058,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_81,43.998,16.129835000000018,27.86816499999998,27.86816499999998,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_83,37.522,28.80679119999993,8.715208800000067,8.715208800000067,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_92,36.094,18.740627400000022,17.35337259999998,17.35337259999998,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_100,46.529,33.17835888000001,13.350641119999992,13.350641119999992,Original Morphology only,RandomForest
+microstructure[3].percentage area,2,image_105,42.124,31.844204000000015,10.279795999999987,10.279795999999987,Original Morphology only,RandomForest
+microstructure[3].percentage area,3,image_4,0.5791,23.037140160000057,-22.458040160000056,22.458040160000056,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_8,0.3679,24.94984259999994,-24.58194259999994,24.58194259999994,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_9,0.5204,27.964016040000022,-27.443616040000023,27.443616040000023,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_10,0.5643,30.527700480000004,-29.963400480000004,29.963400480000004,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_15,0.4545,24.79925463999998,-24.34475463999998,24.34475463999998,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_21,0.4616,26.97330656000002,-26.511706560000018,26.511706560000018,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_24,0.3476,24.928164359999993,-24.580564359999993,24.580564359999993,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_32,0.3746,33.606021520000034,-33.23142152000003,33.23142152000003,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_33,0.0106,24.417180719999966,-24.406580719999965,24.406580719999965,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_35,0.3922,19.650943400000003,-19.258743400000004,19.258743400000004,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_42,0.481,24.60574627999995,-24.124746279999947,24.124746279999947,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_44,0.5782,23.764722440000018,-23.18652244000002,23.18652244000002,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_49,0.535,16.25238684000001,-15.71738684000001,15.71738684000001,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_64,61.403,35.749740520000024,25.653259479999974,25.653259479999974,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_66,45.048,24.456054320000025,20.591945679999977,20.591945679999977,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_67,55.781,41.395425799999906,14.385574200000093,14.385574200000093,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_88,47.217,41.29902379999991,5.917976200000091,5.917976200000091,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_90,0.693,29.40162115999999,-28.70862115999999,28.70862115999999,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_91,0.92,28.82804035999998,-27.90804035999998,27.90804035999998,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,3,image_102,26.523,14.20149083999997,12.32150916000003,12.32150916000003,Materials Metadata + Expanded Morphology,RandomForest
+microstructure[3].percentage area,4,image_40,0.495,32.166561126708984,-31.671561126708983,31.671561126708983,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_52,33.309,24.38505744934082,8.923942550659177,8.923942550659177,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_54,52.673,38.811153411865234,13.861846588134767,13.861846588134767,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_57,45.999,15.741033554077148,30.257966445922854,30.257966445922854,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_59,45.116,45.99578094482422,-0.8797809448242191,0.8797809448242191,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_61,50.087,19.007320404052734,31.07967959594727,31.07967959594727,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_65,51.323,18.876667022705078,32.44633297729492,32.44633297729492,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_68,48.115,9.241528511047363,38.87347148895264,38.87347148895264,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_69,38.245,10.544696807861328,27.70030319213867,27.70030319213867,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_70,30.584,33.79728317260742,-3.2132831726074222,3.2132831726074222,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_72,51.362,10.896539688110352,40.46546031188965,40.46546031188965,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_74,27.136,8.129369735717773,19.006630264282226,19.006630264282226,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_77,42.615,33.81352615356445,8.801473846435549,8.801473846435549,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_78,52.294,14.60999584197998,37.68400415802002,37.68400415802002,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_86,50.907,14.25855541229248,36.648444587707516,36.648444587707516,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_89,46.051,4.714380741119385,41.33661925888062,41.33661925888062,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_96,42.727,15.975027084350586,26.75197291564941,26.75197291564941,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_104,32.106,11.635034561157227,20.470965438842775,20.470965438842775,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_107,48.666,33.04773712158203,15.618262878417966,15.618262878417966,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,4,image_109,56.483,28.285200119018555,28.197799880981442,28.197799880981442,Materials Metadata + Expanded Morphology,XGBoost
+microstructure[3].percentage area,5,image_2,0.5568,37.736524514165254,-37.17972451416525,37.17972451416525,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_3,0.4894,31.98416090299812,-31.49476090299812,31.49476090299812,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_16,0.5584,40.14297243713567,-39.58457243713567,39.58457243713567,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_28,0.51194,16.37705521940524,-15.86511521940524,15.86511521940524,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_29,0.5051,30.8348855395139,-30.3297855395139,30.3297855395139,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_31,0.4903,20.812206059995116,-20.321906059995115,20.321906059995115,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_37,0.5005,27.754158353146472,-27.253658353146474,27.253658353146474,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_47,0.5542,28.343620394818483,-27.78942039481848,27.78942039481848,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_62,54.438,31.41543032585004,23.022569674149963,23.022569674149963,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_63,55.033,32.188994278977304,22.844005721022697,22.844005721022697,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_71,49.69,27.867396784767337,21.82260321523266,21.82260321523266,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_82,46.432,14.074182318938114,32.35781768106189,32.35781768106189,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_85,56.736,50.07792021398291,6.65807978601709,6.65807978601709,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_93,1.216,23.955133179752547,-22.739133179752546,22.739133179752546,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_94,1.758,31.28138425205224,-29.523384252052242,29.523384252052242,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_97,39.551,8.179085999664409,31.371914000335593,31.371914000335593,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_98,34.365,25.145026487815535,9.219973512184467,9.219973512184467,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_101,26.146,46.6143885307922,-20.468388530792197,20.468388530792197,Expanded Morphology only,CatBoost
+microstructure[3].percentage area,5,image_103,45.775,13.987651928701249,31.78734807129875,31.78734807129875,Expanded Morphology only,CatBoost
